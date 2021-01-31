@@ -2,3 +2,15 @@
   background-color: aqua;
   color: brown;
 }
+
+.imagebox {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 200px 200px;
+  justify-content: center;
+}
+
+.imagebox__image {
+  background-size: cover;
+  width: 100%;
+}
